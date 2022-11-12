@@ -1,0 +1,111 @@
+/* gear__part--(letter) is for the rotation of the gear part.
+
+    a, b, c & d = 90°           (cube a, b, c, d)
+    e, f, g & h = 45°           (octagon a, e, b, f, c, g, d, h)
+    i, j, k & l = 60°           (hexagon a, i, j, c, k, l)
+    m, n, o & p = 72°           (pentagon a, m, n, o, p)
+    q, r, s, t, u & v = 36°     (decagon a, q, r, s, c, t, u, v)
+
+*/
+
+.gear__part--a {
+    position: absolute;
+}
+
+.gear__part--b {
+    position: absolute;
+
+    transform: rotate(90deg);
+}
+
+.gear__part--c {
+    position: absolute;
+
+    transform: rotate(180deg);
+}
+
+.gear__part--d {
+    position: absolute;
+
+    transform: rotate(270deg);
+}
+
+.gear__part--e {
+    position: absolute;
+
+    transform: rotate(45deg);
+}
+
+.gear__part--f {
+    position: absolute;
+
+    transform: rotate(135deg);
+}
+
+.gear__part--g {
+    position: absolute;
+
+    transform: rotate(225deg);
+}
+
+.gear__part--h {
+    position: absolute;
+
+    transform: rotate(315deg);
+}
+
+.gear__part--i {
+    position: absolute;
+}
+
+.gear__part--j {
+    position: absolute;
+}
+
+.gear__part--k {
+    position: absolute;
+}
+
+.gear__part--l {
+    position: absolute;
+}
+
+.gear__part--m {
+    position: absolute;
+}
+
+.gear__part--n {
+    position: absolute;
+}
+
+.gear__part--o {
+    position: absolute;
+}
+
+.gear__part--p {
+    position: absolute;
+}
+
+.gear__part--q {
+    position: absolute;
+}
+
+.gear__part--r {
+    position: absolute;
+}
+
+.gear__part--s {
+    position: absolute;
+}
+
+.gear__part--t {
+    position: absolute;
+}
+
+.gear__part--u {
+    position: absolute;
+}
+
+.gear__part--v {
+    position: absolute;
+}

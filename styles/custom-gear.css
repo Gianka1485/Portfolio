@@ -1,0 +1,97 @@
+
+
+/* (name of gear)-gear is for customize the size and color of the gear*/
+
+/* Main gear */
+.main-gear {
+    border: 70px solid hsl(36, 100%, 64%);
+    border-radius: 50%;
+
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+
+    height: 200px;
+    width: 200px;
+
+    transform: rotate(180de);
+}
+
+
+/* (name of gear)-gear__part--(letter) is for the position of the gear parts.*/
+
+/* Main gear */
+.main-gear__part--a {
+    top: -100px;
+}
+
+.main-gear__part--b {
+    right: -100px;
+}
+
+.main-gear__part--c {
+    bottom: -100px;
+    left: 60px;
+}
+
+.main-gear__part--d {
+    top: 60px;
+    left: -100px;
+}
+
+.main-gear__part--e {
+    top: -83px;
+    right: -41px;
+}
+
+.main-gear__part--f {
+    right: -83px;
+    bottom: -41px;
+}
+
+.main-gear__part--g {
+    bottom: -83px;
+    left: -41px;
+}
+
+.main-gear__part--h {
+    top: -41px;
+    left: -83px;
+}
+
+
+
+
+/* (name of gear)-gear__part--(location) is to customize the size and shape of each gear part.*/
+
+/* Main gear */
+.main-gear__part--left, .main-gear__part--right{
+    background-color: red;
+
+    border-radius: 12.5px;
+
+    position: absolute;
+
+    height: 50px;
+    width: 25px;
+}
+
+.main-gear__part--left {
+    transform: rotate(10deg);
+}
+
+.main-gear__part--center {
+    background-color: red;
+
+    position: absolute;
+    top: .2px;
+    left: 15px;
+
+    height: 50px;
+    width: 30px;
+}
+
+.main-gear__part--right {
+    left: 35px;
+    transform: rotate(-10deg);
+}
